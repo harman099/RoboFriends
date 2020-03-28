@@ -7,7 +7,7 @@ const CardList = ({ Robots }) => {
 		{
 			Robots.map((user, i) => {
 		return (
-			<Card key={i} 
+			<Card key={Robots[i].id} 
 			id={Robots[i].id} 
 			name={Robots[i].name} 
 			username={Robots[i].username} 
